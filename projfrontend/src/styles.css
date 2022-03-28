@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+html,body {
+  background: #343a40;
+  height: 100%;
+}
+
+.nav{
+    font-size: 1.2rem;
+}
+
+#main{
+    min-height: calc(100vh - 42px - 156.4px);
+}
+
+ul{
+    list-style: none;
+}
